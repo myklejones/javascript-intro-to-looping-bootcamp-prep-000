@@ -19,7 +19,7 @@ function whileLoop(n) {
 }
 
 
-function doWhileLoop(array) {
+function doWhileLoop(integer) {
 var i =0; i< 10;i++;
 function incrementVariable(){
   i=i+10;
@@ -27,5 +27,5 @@ function incrementVariable(){
     do{console.log ("I run once regardless." );
   }while(incrementVariable()
  < 10);
- return array;
+ return integer;
 }
